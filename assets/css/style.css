@@ -92,6 +92,9 @@ header {
     border-radius: 30px;
     color: #fff;
 }
+.ctn a {
+    color: #fff;
+}
 .nav-mobile {
     position: absolute;
     top: 30px;
@@ -134,4 +137,5 @@ header {
     .nav-links li {
         margin: 30px auto;
     }
+    
 }
