@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Massoterapeuta Leandra</title>
+    <!-- === CSS ===-->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="/assets/content/logo.jpg" class="img-logo"> 
+        <ul class="nav-links">
+            <li class="active"><a href="#"> Home </a></li>
+            <li><a href="#"> Quem sou? </a></li>
+            <li><a href="#"> Massagens </a></li>
+            <li class="ctn"><a href="#"> Contato </a></li>
+        </ul>
+        <img src="assets/content/nav mobile.png" class="nav-mobile">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Já fez sua massagem hoje?</h2>
+            <div class="line"></div>
+            <h1>Massoterapeuta Leandra</h1>
+            <a href="#" class="ctn">Saiba mais</a>
+        </div>
+    </header>
+
+    <script>
+        const navmobile = document.querySelector('.nav-mobile');
+        const navlinks = document.querySelector('.nav-links');
+      
+        navmobile.addEventListener('click', () => {
+          navlinks.classList.toggle('nav-mobile');
+        });
+    </script>
+</body>
+</html>
