@@ -75,7 +75,7 @@ header {
     width: 150px;
     height: 4px;
     background: #8d28b0;
-    margin: 18px auto;
+    margin: 10px auto;
     border-radius: 5px;
 }
 
@@ -108,24 +108,28 @@ header {
 @media only screen and (max-width: 850px) {
     .nav-mobile {
         display: block;
-    }
+    }    
+    
     .navbar {
         padding: 0;
     }
+
     .img-logo {
         position: absolute;
         top: 30px;
         bottom: 30px;
     }
+
     .nav-links {
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         justify-content: center;
         background: #8d28b0;
         cursor: pointer;
         transition: all 0.5s ease;
     }
+
     .nav-links a {
         color: #fff;
     }
